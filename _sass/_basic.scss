@@ -476,3 +476,13 @@ section {
 		max-width: 60%;
 	}
 }
+
+// Custom CSS
+mark {
+    background-color: $text-dark-color;
+	color: $background-color;
+	:hover {
+		background-color: $background-color;
+		color: $text-dark-color;
+	}
+}

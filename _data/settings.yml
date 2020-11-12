@@ -3,7 +3,7 @@ basic_settings:
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: /images/wgtwo-landscape-hvit-website.png
+  logo_image: /images/wgtwo-landscape-hvit-logo.png
   logo_width: 200
 
 menu_settings:
