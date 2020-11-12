@@ -1,13 +1,9 @@
 ---
-title: Why WGTWO
+title: Building a Modern Telco
 # subtitle: Working Group Two is a software company building a telco core network..
 description: A software company based in Oslo Norway.
-featured_image: /images/demo/demo-landscape.jpg
+featured_image: /images/demo.jpg
 ---
-
-![](/images/demo/demo-landscape.jpg)
-
-### Why WGTWO
 
 some text here
 

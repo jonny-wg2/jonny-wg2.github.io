@@ -1,0 +1,1 @@
+All blog posts in this folder will be shown on the front page.

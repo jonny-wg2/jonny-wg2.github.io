@@ -1,1 +1,1 @@
-Pages on the header
+Standalone pages are here

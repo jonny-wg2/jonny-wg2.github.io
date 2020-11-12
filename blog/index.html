@@ -7,7 +7,7 @@ featured_image: /images/blog.jpg
 
 <section class="intro">
 
-	<div class="wrap">
+	<div class="wrap" onload="baffle('.wrap').start();">
 
 		<h1><mark><ins>Reinventing</ins></mark> telco with our software, analytics, <mark><ins>monitoring</ins></mark>, and solutions.</h1>
 
@@ -19,7 +19,7 @@ featured_image: /images/blog.jpg
 
 	<div class="content-wrap blog-wrap">
 
-		{% for blog in paginator.blogs %}
+		{% for blog in paginator.blog_eng %}
 
 		<article class="blog-post">
 
