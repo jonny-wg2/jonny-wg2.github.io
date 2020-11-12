@@ -1,5 +1,5 @@
 ---
-title: Are you ready to make <mark><ins>EOL</ins></mark> the thing of the past?
+title: Are you ready to make<br> <mark><ins>End of Life</ins></mark> the thing of the past?
 subtitle: 
 description: Working Group Two is a software company building a telco core network.
 featured_image: /images/demo/demo-landscape.jpg
