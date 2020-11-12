@@ -1,0 +1,44 @@
+---
+layout: default
+title: Working Group Two
+description: Working Group Two is a software company based in Oslo Norway.
+featured_image: /images/wgtwo.jpg
+---
+
+<section class="intro">
+	<div class="wrap">
+
+		<h1>Pioneering <ins>telco</ins>, with a future proof core network, to help grow your company.</h1>
+
+	</div>
+</section>
+
+<section class="portfolio">
+	<div class="wrap">
+		
+		<p>Updates</p>
+
+		{% for sale in site.sales reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ sale.url }}">
+
+				
+
+				<!-- <div class="portfolio-item__image">
+					<img src="{{ sale.featured_image  }}" alt="{{ sale.title }}">
+				</div> -->
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ sale.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ sale.subtitle }}</p>
+					</div>
+				</div>
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+
