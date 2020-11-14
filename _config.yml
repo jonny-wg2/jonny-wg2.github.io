@@ -29,12 +29,6 @@ defaults:
       type: "blogs"
     values:
       layout: "blog"
-  -
-    scope:
-      path: ""
-      type: "travels"
-    values:
-      layout: "travel"
 
 markdown: kramdown
 
