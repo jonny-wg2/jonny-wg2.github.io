@@ -6,6 +6,7 @@ header_settings:
   logo_image: /images/wgtwo-landscape-hvit-logo.png
   logo_image_orange: /images/wgtwo-landscape-orange-logo.png
   logo_image_blue: /images/wgtwo-landscape-blue-logo.png
+  logo_image_svart: /images/wgtwo-landscape-svart-logo.png
   logo_width: 200
 
 menu_settings:
@@ -72,7 +73,7 @@ color_settings_blog:
 
 color_settings_demo:
   background_color: '#428c92'
-  text_dark_color: '#2a3870' #h1,h2,h3,-h6
+  text_dark_color: '#274779' #h1,h2,h3,-h6
   text_light_color: '#ABB7B7' #p
 
 font_settings:
@@ -167,9 +168,9 @@ font_settings:
     letter_spacing: 0
 
 advanced_settings:
-  ajax_loading: true
+  ajax_loading: false # needs to be false to force image load
   analytics_code: 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58630348-7"></script>
+    # <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58630348-7"></script>
     <script>
     </script>
   custom_styles: ""
