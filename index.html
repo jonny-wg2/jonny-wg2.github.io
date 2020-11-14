@@ -14,41 +14,24 @@ featured_image: /images/wgtwo.jpg
 </section>
 
 <section class="portfolio">
-	<div class="wrap" onload="baffle.start()">
+	<div class="wrap">
 
 		
 		
 		<p>Updates</p>
-		<h6>
+		<h5>
 		<b><ins>Engineering at WGTWO</ins></b> how we do what we do <br>
 		<b><ins>Building a Modern Telco</ins></b> cloud-based telco core <br>
 		<b><ins>Developing Telco Products</ins></b> APIs for developers <br>
 		<b><ins>Enabling your POC</ins></b> integration with ease <br>
-		</h6>
+		</h5>
+		<p>
+		{% for page in site.blog_updates %}
+		<b><ins><a href="{{ page.url }}">{{ page.title }}</ins></b>  || {{ page.subtitle }} <br>
+		{% endfor %}
+		</p>
 		
-		<!-- ADD BACK WHEN PRODUCTION -->
 
-		<!-- {% for blog_update in site.blog_updates reversed %}
-
-		<div class="portfolio-item">
-
-			<a class="portfolio-item__link" href="{{ blog_update.url }}">
-
-				
-
-				<!-- <div class="portfolio-item__image">
-					<img src="{{ blog_update.featured_image  }}" alt="{{ blog_update.title }}">
-				</div> -->
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">{{ blog_update.title }}</h2>
-						<p class="portfolio-item__subtitle">{{ blog_update.subtitle }}</p>
-					</div>
-				</div>
-			</a>
-		</div>
-		{% endfor %} -->
 	</div>
 </section>
 

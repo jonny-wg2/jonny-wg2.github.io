@@ -6,7 +6,5 @@ featured_image: /images/demo/demo-landscape.jpg
 ---
 
 {% include header-customer-stories.html %}
-
-I am testing this out
-## testin ghit sout
-# testing this out
+Our success stories
+{% include section-customer-stories.html %}

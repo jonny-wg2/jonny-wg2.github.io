@@ -7,9 +7,15 @@ collections:
   blogs:
     output: true
     permalink: /blog/:slug
-  travels:
+  blog_eng:
     output: true
-    permalink: /travel/:slug
+    permalink: /blog/:slug
+  blog_updates:
+    output: true
+    permalink: /blog/:slug
+  customer_stories:
+    output: true
+    permalink: /stories/:slug
 
 defaults:
   -

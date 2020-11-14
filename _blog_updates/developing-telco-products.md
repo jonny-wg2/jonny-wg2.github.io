@@ -1,6 +1,6 @@
 ---
 title: Developing Telco Products
-# subtitle: Working Group Two is a software company building a telco core network..
+subtitle: APIs for developers
 description: A software company based in Oslo Norway.
 featured_image: /images/demo.jpg
 ---
