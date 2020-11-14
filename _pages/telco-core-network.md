@@ -5,3 +5,4 @@ description: A software company based in Oslo Norway.
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
+{% include header-telco-core-network.html %}

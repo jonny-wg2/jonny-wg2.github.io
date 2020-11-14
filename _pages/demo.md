@@ -5,4 +5,5 @@ description: Working Group Two is a software company building a telco core netwo
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
+{% include header-demo.html %}
 {% include contact-form.html %}

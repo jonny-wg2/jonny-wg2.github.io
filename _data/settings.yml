@@ -60,6 +60,7 @@ social_settings:
   bandcamp_url: ''
   linkedin_url: ''
 
+#home 
 color_settings:
   background_color: '#274779'
   background_alt_color: '#f4f5f6'
@@ -72,6 +73,10 @@ color_settings:
   overlay_text_color: '#ABB7B7'
   overlay_accent_color: '#ABB7B7'
   error_color: '#D64541'
+
+# color_settings_customer_stories:
+#   background_color: ''
+
 
 font_settings:
   # font_embed: '<link href="https://fonts.googleapis.com/css?family=VT323&display=swap":300,400,600,700" rel="stylesheet">'
