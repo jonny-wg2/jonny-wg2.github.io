@@ -75,6 +75,7 @@ Y8ooooo. 88'  `88 88       88   88  88  88 88'  `88 88'  `88 88ooood8      88   
 
 <body class="loading{% if site.data.settings.advanced_settings.ajax_loading == true %} ajax-loading{% endif %}" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
 
+<body onload="window.baffle('.baffle').set({speed: 120,characters: '▒██▓<█ █/▒ ██/█< █░<< ▓▒▒ ███░ ██<▒'}).reveal(500)">
 
 	{% include header.html %}
 
