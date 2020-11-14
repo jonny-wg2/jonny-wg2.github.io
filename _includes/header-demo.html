@@ -1,17 +1,35 @@
+{% assign logo = blue %}
+
 <header class="header">
 
 <style>
 	body {
-		background: #8ec4c3;
-		/* font-family: $body-font;
-		font-weight: $regular-weight;
-		font-style: normal;
-		line-height: 1; */
+		background: {{ site.data.settings.color_settings_demo.background_color }};
 	}
-	/* h1, h2, h3, h4, h5, h6 {
-		color: #c28c69;
-	} */
-
+	h1, h2, h3, h4, h5, h6 {
+		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
+	}
+	p {
+		color: {{ site.data.settings.color_settings_demo.text_light_color }};
+	}
+	mark {
+		background-color: {{ site.data.settings.color_settings_demo.text_dark_color }};
+		color: {{ site.data.settings.color_settings_demo.background_color }};
+	}
+	mark:hover {
+			background-color: {{ site.data.settings.color_settings_demo.background_color }};
+			color: {{ site.data.settings.color_settings_demo.text_dark_color }};
+		}
+	.menu__list__item__link {
+		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
+	}
+	.menu__list__item__link:hover {
+		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
+		
+	}
+	.menu__list__item__link.active-link {
+		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
+	}
 </style>
 
 </header>
