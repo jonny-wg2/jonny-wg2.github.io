@@ -16,12 +16,12 @@ featured_image: /images/wgtwo.jpg
 <section class="portfolio">
 	<div class="wrap">
 		<p>Updates</p>
-		<ul> 
-		<h5>
+		<ul class="nobull"> 
+		
 			{% for page in site.blog_updates %}
-				<li class="baffle"><b><ins><a href="{{ page.url }}">{{ page.title }}</a></ins></b>  || {{ page.subtitle }} <br></li>
+				<li><h5><b><ins><a class="baffle" href="{{ page.url }}">{{ page.title }}</a></ins></b>  || {{ page.subtitle }} <br></li></h5>
 			{% endfor %}
-		</h5>
+		
 		</ul>
 	</div>
 </section>
