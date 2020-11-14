@@ -32,7 +32,19 @@ defaults:
   -
     scope:
       path: ""
-      type: "blogs"
+      type: "blog_eng"
+    values:
+      layout: "blog"
+  -
+    scope:
+      path: ""
+      type: "blog_updates"
+    values:
+      layout: "blog"
+  -
+    scope:
+      path: ""
+      type: "customer_stories"
     values:
       layout: "blog"
 

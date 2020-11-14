@@ -15,23 +15,12 @@ featured_image: /images/wgtwo.jpg
 
 <section class="portfolio">
 	<div class="wrap">
-
-		
-		
 		<p>Updates</p>
 		<h5>
-		<b><ins>Engineering at WGTWO</ins></b> how we do what we do <br>
-		<b><ins>Building a Modern Telco</ins></b> cloud-based telco core <br>
-		<b><ins>Developing Telco Products</ins></b> APIs for developers <br>
-		<b><ins>Enabling your POC</ins></b> integration with ease <br>
+			{% for page in site.blog_updates %}
+				<b><ins><a href="{{ page.url }}">{{ page.title }}</a></ins></b>  || {{ page.subtitle }} <br>
+			{% endfor %}
 		</h5>
-		<p>
-		{% for page in site.blog_updates %}
-		<b><ins><a href="{{ page.url }}">{{ page.title }}</ins></b>  || {{ page.subtitle }} <br>
-		{% endfor %}
-		</p>
-		
-
 	</div>
 </section>
 
