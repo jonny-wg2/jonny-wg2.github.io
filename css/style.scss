@@ -11,9 +11,11 @@
 
 // - - - - - - - - - - Variables
 
-
+// Contact form
+$background-color-demo: {{ site.data.settings.color_settings_demo.background_color }};
+$border-color-demo: {{ site.data.settings.color_settings_demo.text_dark_color }}; 
+$border-color-light-text: {{ site.data.settings.color_settings_demo.text_light_color }}; 
 // Colors
-
 $background-color: {{ site.data.settings.color_settings.background_color }};
 $background-alt-color: {{ site.data.settings.color_settings.background_alt_color }};
 $border-color: {{ site.data.settings.color_settings.border_color }};
