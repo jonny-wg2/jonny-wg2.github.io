@@ -1,4 +1,5 @@
 ---
+layout: blog
 title: Voice at WGTWO
 subtitle: How we perform call routing
 description: Working Group Two is a software company pioneering the path of a new telco network.

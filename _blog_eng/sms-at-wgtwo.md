@@ -1,4 +1,5 @@
 ---
+layout: blog
 title: SMS at WGTWO
 subtitle: Using a message bus to process sms
 description: Working Group Two is a software company pioneering the path of a new telco network.
