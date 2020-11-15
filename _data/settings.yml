@@ -27,7 +27,7 @@ footer_settings:
 
 grid_settings:
   overlay_opacity: 0.1
-  grid_spacing: 200
+  grid_spacing: 20
 
 contact_settings:
   form_action: 'https://formspree.io/somethinghere'
@@ -69,7 +69,7 @@ color_settings_why_wgtwo:
 color_settings_blog:
   background_color: '#f0e6e2'
   text_dark_color: '#2a3870' #h1,h2,h3,-h6
-  text_light_color: '#2a3870' #p
+  text_light_color: '#000000' #p
 
 color_settings_demo:
   background_color: '#8ec4c3'
@@ -93,7 +93,7 @@ font_settings:
     small_size: 18
     medium_size: 18
     large_size: 18
-    weight: 400
+    weight: 200
     letter_spacing: 0
   grid_item_title:
     small_size: 22
