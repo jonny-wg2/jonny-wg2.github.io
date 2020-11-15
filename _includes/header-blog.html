@@ -19,6 +19,7 @@
 	mark:hover {
 			background-color: {{ site.data.settings.color_settings_blog.background_color }};
 			color: {{ site.data.settings.color_settings_blog.text_dark_color }};
+			transition: all 0.15s ease-in-out;
 		}
 	.menu__list__item__link {
 		color: {{ site.data.settings.color_settings_blog.text_dark_color }};
@@ -31,6 +32,24 @@
 		color: {{ site.data.settings.color_settings_blog.text_dark_color }};
 		border-color: {{ site.data.settings.color_settings_blog.text_dark_color }};
 	}
+
+	/* blog */
+	.single p a {
+		font-weight: 300;
+		border-bottom: 2px solid {{ site.data.settings.color_settings_blog.text_dark_color }};
+	}
+	a {
+		text-decoration: none;
+		color: {{ site.data.settings.color_settings_blog.text_light_color }};
+		/* font-weight: 400; */
+	}
+	p.blog:hover {
+		/* background: {{ site.data.settings.color_settings_blog.text_dark_color }}; */
+		color: {{ site.data.settings.color_settings_blog.text_dark_color }};
+		font-weight: 600;
+	}
+
+
 </style>
 
 </header>

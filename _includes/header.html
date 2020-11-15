@@ -19,7 +19,7 @@
 		</a>
 		{% else %}
 		<a href="/" class="header__title">
-			{{ site.data.settings.basic_settings.site_subtitle }}
+			{{ site.data.settings.basic_settings.site_title }}
 		</a>
 		{% endif %}
 
@@ -49,6 +49,7 @@
 	mark:hover {
 			background-color: {{ site.data.settings.color_settings.background_color }};
 			color: {{ site.data.settings.color_settings.text_dark_color }};
+			transition: all 0.15s ease-in-out;
 		}
 	</style>
 	

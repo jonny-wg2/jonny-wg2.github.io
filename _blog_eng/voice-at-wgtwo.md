@@ -1,6 +1,6 @@
 ---
-title: SMS at WGTWO
-subtitle: 
+title: Voice at WGTWO
+subtitle: How we perform call routing
 description: Working Group Two is a software company building a telco core network.
 featured_image: /images/wgtwo-landscape-hvit.png
 ---
