@@ -1,6 +1,6 @@
 ---
 title: Telenor
-subtitle: subtitle here
+subtitle: Investor and MNO partner 
 description: Working Group Two is a software company pioneering the path of a new telco network.
 featured_image: /images/customer-stories/telenor.png
 ---
