@@ -7,7 +7,7 @@ header_settings:
   logo_image_orange: /images/wgtwo-landscape-orange-logo.png
   logo_image_blue: /images/wgtwo-landscape-blue-logo.png
   logo_image_svart: /images/wgtwo-landscape-svart-logo.png
-  logo_width: 200
+  logo_width: 150
 
 menu_settings:
   menu_items:
