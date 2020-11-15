@@ -6,5 +6,5 @@ featured_image: /images/demo/demo-landscape.jpg
 ---
 
 {% include header-blog.html %}
-# Blog
+## Blog
 {% include section-blog.html %}
