@@ -2,14 +2,21 @@
 
     <div class="content-wrap portfolio-wrap">
 
-        {% for travel in site.customer_stories reversed %}
+        {% for story in site.customer_stories reversed %}
 
         <div class="portfolio-item">
 
-            <a class="portfolio-item__link" href="{{ travel.url }}">
+            <a class="portfolio-item__link" href="{{ story.url }}">
 
                 <div class="portfolio-item__image">
-                    <p class="portfolio-item__subtitle">{{ travel.title}}</p>
+                    <img src="{{ story.featured_image  }}" alt="{{ story.title }}">
+                </div>
+
+                <div class="portfolio-item__content">
+                    <div class="portfolio-item__info">
+                        <h2 class="portfolio-item__title">{{ story.title }}</h2>
+                        <p class="portfolio-item__subtitle">{{ story.subtitle }}</p>
+                    </div>
                 </div>
 
             </a>

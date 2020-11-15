@@ -1,7 +1,7 @@
 ---
-title: Cisco
+title: Telenor
 subtitle: subtitle here
 description: Working Group Two is a software company pioneering the path of a new telco network.
-featured_image: /images/customer-stories/cisco.png
+featured_image: /images/customer-stories/telenor.png
 ---
 {% include header-customer-stories.html %}
