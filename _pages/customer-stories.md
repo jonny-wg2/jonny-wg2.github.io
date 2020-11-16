@@ -9,4 +9,4 @@ featured_image: /images/demo/demo-landscape.jpg
 
 {% include section-customer-stories.html %}
 
-{% include footer-customer-stories.html %}
+<!-- {% include footer-customer-stories.html %} -->
