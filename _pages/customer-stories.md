@@ -6,5 +6,5 @@ featured_image: /images/demo/demo-landscape.jpg
 ---
 
 {% include header-customer-stories.html %}
-Our success stories
+<p class="accentfont">OUR SUCCESS IS YOUR SUCCESS</p>
 {% include section-customer-stories.html %}

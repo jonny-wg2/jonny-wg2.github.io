@@ -46,7 +46,7 @@ defaults:
       path: ""
       type: "customer_stories"
     values:
-      layout: "customer-stories"
+      layout: "page"
 
 markdown: kramdown
 
