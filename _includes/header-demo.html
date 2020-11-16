@@ -4,7 +4,9 @@
 
 <style>
 	body {
-		background: {{ site.data.settings.color_settings_demo.background_color }};
+		/* background: {{ site.data.settings.color_settings_demo.background_color }}; */
+		background-color: #0093E9;
+		background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 	}
 	h1, h2, h3, h4, h5, h6 {
 		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
@@ -14,10 +16,11 @@
 	}
 	mark {
 		background-color: {{ site.data.settings.color_settings_demo.text_dark_color }};
-		color: {{ site.data.settings.color_settings_demo.background_color }};
+		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
 	}
 	mark:hover {
-			background-color: {{ site.data.settings.color_settings_demo.background_color }};
+			/* background-color: {{ site.data.settings.color_settings_demo.text_dark_color }}; */
+			background: transparent;
 			color: {{ site.data.settings.color_settings_demo.text_dark_color }};
 			transition: all 0.15s ease-in-out;
 		}
@@ -32,6 +35,9 @@
 		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
 		border-color: {{ site.data.settings.color_settings_demo.text_dark_color }};
 	}
+	.contact-form {
+		background-color: none;
+	}
 
 
 	/* button */
@@ -43,6 +49,9 @@
 	.button:hover {
 		background: {{ site.data.settings.color_settings_demo.text_light_color }};
 	}
+
+	
+
 </style>
 
 </header>

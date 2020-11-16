@@ -5,7 +5,7 @@
 // - - - - - - - - - - - - - - - - - -
 
 .contact-form {
-	background: $background-color-demo;
+	// background: $background-color-demo;
 	margin: 20px auto;
 	width: 100%;
 	max-width: 90%;
@@ -78,7 +78,8 @@
 	border: 2px solid $border-color-demo;
 	border-radius: 2px;
 	padding: 10px 12px;
-	background: $background-color-demo;
+	// background: $background-color-demo;
+	background: transparent;
 	font-size: $p-small;
 	line-height: 1.4;
 	color: $border-color-demo;
