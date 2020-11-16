@@ -3,8 +3,23 @@
 <header class="header">
 
 <style>
-	body {
-		background: {{ site.data.settings.color_settings_blog.background_color }};
+	/* body {
+		/* background: {{ site.data.settings.color_settings_blog.background_color }}; */
+	} */
+	body {	
+		background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	body:before{
+		content:'';
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		z-index: -1;
+		background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 	}
 	h1, h2, h3, h4, h5, h6 {
 		color: {{ site.data.settings.color_settings_blog.text_dark_color }};
@@ -17,7 +32,8 @@
 		color: {{ site.data.settings.color_settings_blog.background_color }};
 	}
 	mark:hover {
-			background-color: {{ site.data.settings.color_settings_blog.background_color }};
+			/* background-color: {{ site.data.settings.color_settings_blog.background_color }}; */
+			background: transparent;
 			color: {{ site.data.settings.color_settings_blog.text_dark_color }};
 			transition: all 0.15s ease-in-out;
 		}
