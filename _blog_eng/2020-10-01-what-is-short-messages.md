@@ -17,7 +17,7 @@ after all, it is telco.
 
 _Aaand down the rabbit hole we go..._
 
-> Where to even start
+## Where to even start
 
 In the *SS7* (telco/telecom/telecommunications) network there are many
 different nodes (servers), with different kinds of tasks.
@@ -52,7 +52,7 @@ as *HLR* (Home location registry), *VLR* (Visitor location registry),
 ackronyms; go telco!] support node) and the *SMSC* (Short message
 service centre).
 
-> MAP versions and TCAP dialogues
+## MAP versions and TCAP dialogues
 
 There are some iterations of *MAP* (v1, v2, v3, and v4) and messages
 almost always come in pairs, an acknowledgement (`ReturnResult` or
@@ -94,7 +94,7 @@ first message from both nodes for the version negotiation.
 
 _I think this covers most of it, let's get back to the fun part._
 
-> How does SMS work?
+## How does SMS work?
 
 *SMS* was initally implemented because of the wish to send text
 messages to pagers using the phoneline when it was not in use for
@@ -215,7 +215,7 @@ other *MAP* messages are then involved, such as
 
 _At least this is main idea I think..._
 
-# Differences in MAP versions for SMS
+## Differences in MAP versions for SMS
 
 There are three *MAP* versions defined for *SMS*. The latest version
 (v4) is not used in the context of *SMS*.
@@ -246,7 +246,7 @@ Ok, to recap, what do we have now
 
 _Wait we are missing something. I've only covered 2G,3G.._
 
-# What about 4G/LTE and beyond (5G)?
+## What about 4G/LTE and beyond (5G)?
 
 _Ouch._
 
@@ -330,7 +330,7 @@ Relevant xkcd:
     <a class="image" href="https://xkcd.com/2365/"><img src="https://imgs.xkcd.com/comics/messaging_systems.png" /></a>
 </div>
 
-# Headache
+## Headache
 
 Hopefully you did not get a (too severe) headache by reading this
 post.
