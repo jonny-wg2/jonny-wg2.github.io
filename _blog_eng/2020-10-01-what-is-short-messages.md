@@ -17,7 +17,7 @@ after all, it is telco.
 
 _Aaand down the rabbit hole we go..._
 
-# Where to even start
+> Where to even start
 
 In the *SS7* (telco/telecom/telecommunications) network there are many
 different nodes (servers), with different kinds of tasks.
@@ -52,7 +52,7 @@ as *HLR* (Home location registry), *VLR* (Visitor location registry),
 ackronyms; go telco!] support node) and the *SMSC* (Short message
 service centre).
 
-# MAP versions and TCAP dialogues
+> MAP versions and TCAP dialogues
 
 There are some iterations of *MAP* (v1, v2, v3, and v4) and messages
 almost always come in pairs, an acknowledgement (`ReturnResult` or
@@ -94,7 +94,7 @@ first message from both nodes for the version negotiation.
 
 _I think this covers most of it, let's get back to the fun part._
 
-# How does SMS work?
+> How does SMS work?
 
 *SMS* was initally implemented because of the wish to send text
 messages to pagers using the phoneline when it was not in use for
