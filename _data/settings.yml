@@ -67,9 +67,9 @@ color_settings_why_wgtwo:
   text_light_color: '#ABB7B7' #p
 
 color_settings_blog:
-  background_color: '#f0e6e2'
+  background_color: '#F5F8FA' #'#f0e6e2'
   text_dark_color: '#2a3870' #h1,h2,h3,-h6
-  text_light_color: '#000000' #p
+  text_light_color: '#4f6177' #p
 
 color_settings_demo:
   background_color: '#8ec4c3'
@@ -80,7 +80,9 @@ font_settings:
   # font_embed: '<link href="https://fonts.googleapis.com/css?family=VT323&display=swap":300,400,600,700" rel="stylesheet">'
   # custom font in _basic.scss
   title_font: '"geomanist"'
-  body_font: '"SpotMono"'
+  # body_font: '"geomanist"'
+  body_font: '"geomanist"'
+  accent_font: '"SpotMono"'
   regular_weight: 100
   bold_weight: 300
   site_title:
@@ -150,9 +152,9 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   p:
-    small_size: 15
-    medium_size: 18
-    large_size: 18
+    small_size: 16
+    medium_size: 16
+    large_size: 16
     weight: 100
     letter_spacing: -0.02
     line_height: 1.6

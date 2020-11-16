@@ -7,6 +7,8 @@ tags: telco MAP TCAP SS7 Forward-SM SMS
 author: <a href="https://www.linkedin.com/in/sebastian-weddmark-olsson/">Sebastian Weddmark Olsson</a>, Telco newb
 ---
 
+![](/images/blog/sms/forward-sm.svg)
+
 I will try as best as I can to give an explanation of what happens
 when you send an SMS from your phone.
 
@@ -118,9 +120,8 @@ towards the *MSC* in the recipients network. In this case *MT* stands
 for Mobile Terminated, meaning it goes towards the recipients phone.
 
 _Dia have amazing icons:_
-<div>
-    <img src="/images/blog/sms/forward-sm.svg" alt="You calling your mom" />
-</div>
+
+![](/images/blog/sms/forward-sm.svg)
 
 The similarities in *MO* and *MT* requests are that they both contain
 a origin and destination address as well as the user data (your actual
@@ -139,10 +140,10 @@ recipient is also within the same network as the sender.
 
 ## Ever wondered why there is a limit to the size of the text message you are sending?
 
-<div class="left-right-row">
-    <div class="text">Two characters left on a GSM7 encoded SMS.</div>
-    <img class="image" src="/images/blog/sms/160_chars.png" alt="Characters left: 2/160" />
-</div>
+![](/images/blog/sms/160_chars.png)
+```
+Two characters left on a GSM7 encoded SMS.
+```
 
 If you (god forbid) you would break the protocol and send a text
 message greater than 140 bytes, which translates to 160, 152, or 70
@@ -178,15 +179,13 @@ there will be a header in front that specifies that. That header will
 take up 7 bytes after packing (in other words 8 characters), making
 the maximum length of the *SMS* 152 characters.
 
-<div class="left-right-row">
-    <img class="image" src="/images/blog/sms/67_chars.png" alt="Characters left: 45/67 (3)" />
-    <div class="text">
-        Using emojis will convert the encoding to USC-2. Note the missing 3
-        characters and that there are multiple SMSes. When multiple messages
-        are sent, the phone needs some way of telling how to reassemble the
-        messages. The headers take up 6 bytes per message for this purpose.
-    </div>
-</div>
+![](/images/blog/sms/67_chars.png)
+```
+Using emojis will convert the encoding to USC-2. Note the missing 3
+characters and that there are multiple SMSes. When multiple messages
+are sent, the phone needs some way of telling how to reassemble the
+messages. The headers take up 6 bytes per message for this purpose.
+```
 
 However when *MAP* v2 started to use *TCAP* dialogues there was more
 information to put into the packet and 140 bytes might not be left for
@@ -327,9 +326,9 @@ Relevant xkcd:
             <td>UE</td>
         </tr>
     </table>
-    <a class="image" href="https://xkcd.com/2365/"><img src="https://imgs.xkcd.com/comics/messaging_systems.png" /></a>
 </div>
 
+![https://xkcd.com/2365/](https://imgs.xkcd.com/comics/messaging_systems.png)
 ## Headache
 
 Hopefully you did not get a (too severe) headache by reading this
