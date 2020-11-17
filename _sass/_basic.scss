@@ -444,3 +444,15 @@ section {
 	font-family: monospace;
 	letter-spacing: 0.8;
 }
+
+.center {
+
+	@include mq(tabletp) {
+		text-align: center;
+	}
+
+	@include mq(laptop) {
+		text-align: center;
+	}
+	
+}
