@@ -193,15 +193,17 @@
 .image-wrap,
 .video-wrap {
 	position: relative;
-	max-width: 70%;
+	max-width: 95%;
 	margin: 20px auto;
 
 	@include mq(tabletp) {
 		margin: 30px auto;
+		max-width: 60%;
 	}
 
 	@include mq(laptop) {
 		margin: 40px auto;
+		max-width: 60%;
 	}
 
 	&:first-child {
