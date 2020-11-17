@@ -5,18 +5,12 @@ layout: default
 {% include header-blog.html %}
 {% include header-blog-post.html %}
 
-<section class="intro">
-
-	<div class="wrap">
-		<p class="accentfont"><b>Blog</b></p>
-
-		<h1 class="wiggle">{{ page.title }}</h1>
-		<p class="accentfont"> {{ page.date | date_to_long_string }}</p><br>
-	</div>
-
-</section>
-
 <section class="single">
+
+	<p class="accentfont"><b>Blog</b></p>
+
+	<h1 class="wiggle">{{ page.title }}</h1>
+	<p class="accentfont"> {{ page.date | date_to_long_string }}</p><br>
 
 	{{ page.content }}
 
