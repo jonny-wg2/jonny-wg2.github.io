@@ -177,8 +177,8 @@
 .menu--open .menu__wrap {
 	visibility: visible;
 	opacity: 1;
+	width: 100%;
 }
-
 .menu__list {
 	list-style: none;
 	margin: 0 auto;
@@ -213,7 +213,6 @@
 	font-weight: $menu-weight;
 	color: $overlay-text-color;
 	padding: 10px 0;
-	text-transform: lowercase;
 
 	&:hover {
 		color: $overlay-accent-color;
@@ -243,7 +242,6 @@
 		}
 	}
 }
-
 .menu__button {
 	margin-top: 15px;
 	padding: 15px 20px 16px;
