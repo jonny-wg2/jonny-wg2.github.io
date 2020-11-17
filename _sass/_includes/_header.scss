@@ -9,18 +9,18 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Header
 
 .header {
-	margin-top: 40px;
+	margin-top: 45px;
 
 	@include mq(tabletp) {
-		margin-top: 40px;
+		margin-top: 45px;
 	}
 
 	@include mq(tabletl) {
-		margin-top: 40px;
+		margin-top: 45px;
 	}
 
 	@include mq(laptop) {
-		margin-top: 40px;
+		margin-top: 45px;
 	}
 }
 
