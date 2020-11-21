@@ -24,13 +24,12 @@ footer {
 	// }
 }
 footer a {
-  text-decoration: none;
   color: #eee;
-//   hover:
+  &:hover {
+	text-decoration: underline;
+  }
 }
-// .footerhover:hover {
-//   text-decoration: underline;
-// }
+
 .ft-title {
   color: #fff;
   font-family: "Menlo", serif;
