@@ -1,13 +1,11 @@
 ---
-layout: blog
+layout: blogpost
 permalink: /blog/what-is-a-short-message
 title: What the heck is a short message?
 date: 2020-10-01
 tags: telco MAP TCAP SS7 Forward-SM SMS
 author: <a href="https://www.linkedin.com/in/sebastian-weddmark-olsson/">Sebastian Weddmark Olsson</a>, Telco newb
 ---
-
-![](/images/blog/sms/forward-sm.svg)
 
 I will try as best as I can to give an explanation of what happens
 when you send an SMS from your phone.
@@ -19,7 +17,7 @@ after all, it is telco.
 
 _Aaand down the rabbit hole we go..._
 
-## Where to even start
+# Where to even start
 
 In the *SS7* (telco/telecom/telecommunications) network there are many
 different nodes (servers), with different kinds of tasks.
@@ -54,7 +52,7 @@ as *HLR* (Home location registry), *VLR* (Visitor location registry),
 ackronyms; go telco!] support node) and the *SMSC* (Short message
 service centre).
 
-## MAP versions and TCAP dialogues
+# MAP versions and TCAP dialogues
 
 There are some iterations of *MAP* (v1, v2, v3, and v4) and messages
 almost always come in pairs, an acknowledgement (`ReturnResult` or
@@ -96,7 +94,7 @@ first message from both nodes for the version negotiation.
 
 _I think this covers most of it, let's get back to the fun part._
 
-## How does SMS work?
+# How does SMS work?
 
 *SMS* was initally implemented because of the wish to send text
 messages to pagers using the phoneline when it was not in use for
@@ -120,8 +118,9 @@ towards the *MSC* in the recipients network. In this case *MT* stands
 for Mobile Terminated, meaning it goes towards the recipients phone.
 
 _Dia have amazing icons:_
-
-![](/images/blog/sms/forward-sm.svg)
+<div>
+    <img src="/img/blog/sms/forward-sm.svg" alt="You calling your mom" />
+</div>
 
 The similarities in *MO* and *MT* requests are that they both contain
 a origin and destination address as well as the user data (your actual
@@ -140,10 +139,10 @@ recipient is also within the same network as the sender.
 
 ## Ever wondered why there is a limit to the size of the text message you are sending?
 
-![](/images/blog/sms/160_chars.png)
-```
-Two characters left on a GSM7 encoded SMS.
-```
+<div class="left-right-row">
+    <div class="text">Two characters left on a GSM7 encoded SMS.</div>
+    <img class="image" src="/img/blog/sms/160_chars.png" alt="Characters left: 2/160" />
+</div>
 
 If you (god forbid) you would break the protocol and send a text
 message greater than 140 bytes, which translates to 160, 152, or 70
@@ -179,13 +178,15 @@ there will be a header in front that specifies that. That header will
 take up 7 bytes after packing (in other words 8 characters), making
 the maximum length of the *SMS* 152 characters.
 
-![](/images/blog/sms/67_chars.png)
-```
-Using emojis will convert the encoding to USC-2. Note the missing 3
-characters and that there are multiple SMSes. When multiple messages
-are sent, the phone needs some way of telling how to reassemble the
-messages. The headers take up 6 bytes per message for this purpose.
-```
+<div class="left-right-row">
+    <img class="image" src="/img/blog/sms/67_chars.png" alt="Characters left: 45/67 (3)" />
+    <div class="text">
+        Using emojis will convert the encoding to USC-2. Note the missing 3
+        characters and that there are multiple SMSes. When multiple messages
+        are sent, the phone needs some way of telling how to reassemble the
+        messages. The headers take up 6 bytes per message for this purpose.
+    </div>
+</div>
 
 However when *MAP* v2 started to use *TCAP* dialogues there was more
 information to put into the packet and 140 bytes might not be left for
@@ -214,7 +215,7 @@ other *MAP* messages are then involved, such as
 
 _At least this is main idea I think..._
 
-## Differences in MAP versions for SMS
+# Differences in MAP versions for SMS
 
 There are three *MAP* versions defined for *SMS*. The latest version
 (v4) is not used in the context of *SMS*.
@@ -245,7 +246,7 @@ Ok, to recap, what do we have now
 
 _Wait we are missing something. I've only covered 2G,3G.._
 
-## What about 4G/LTE and beyond (5G)?
+# What about 4G/LTE and beyond (5G)?
 
 _Ouch._
 
@@ -326,10 +327,10 @@ Relevant xkcd:
             <td>UE</td>
         </tr>
     </table>
+    <a class="image" href="https://xkcd.com/2365/"><img src="https://imgs.xkcd.com/comics/messaging_systems.png" /></a>
 </div>
 
-![https://xkcd.com/2365/](https://imgs.xkcd.com/comics/messaging_systems.png)
-## Headache
+# Headache
 
 Hopefully you did not get a (too severe) headache by reading this
 post.
