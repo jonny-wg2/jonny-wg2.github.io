@@ -4,8 +4,7 @@
 
 <style>
 	body {
-		/* background: {{ site.data.settings.color_settings_demo.background_color }}; */
-		background-color: #0093E9;
+		background: {{ site.data.settings.color_settings_demo.background_color }};
 		background-image: linear-gradient(160deg,#80D0C7 0%,#0093E9   100%);
 		background-repeat: no-repeat;
 	}
@@ -16,10 +15,8 @@
 		bottom: 0;
 		width: 100%;
 		z-index: -1;
-		/* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
 		background-image: linear-gradient(160deg, #7ec6c3 30%, #1c477d 100%);
 	}
-
 	h1, h2, h3, h4, h5, h6 {
 		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
 	}
@@ -27,17 +24,11 @@
 		color: {{ site.data.settings.color_settings_demo.text_light_color }};
 	}
 	mark {
-		/* background-color: {{ site.data.settings.color_settings_demo.text_dark_color }}; */
 		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
 		background-color: transparent;
 	}
 	mark:hover {
-			/* background-color: {{ site.data.settings.color_settings_demo.text_dark_color }}; */
-			/* background: transparent; */
-			/* color: {{ site.data.settings.color_settings_demo.background_color }}; */
 			transition: all 0.15s ease-in-out;
-			/* opacity: 0.5; */
-
 		}
 	.menu__list__item__link {
 		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
@@ -54,19 +45,21 @@
 		background-color: none;
 	}
 
-
 	/* button */
 	.button {
 		background: {{ site.data.settings.color_settings_demo.text_dark_color }};
 		color: {{ site.data.settings.color_settings_demo.background_color }};
-		border: 0px 
+		border: 0px;
 	}
 	.button:hover {
 		background: {{ site.data.settings.color_settings_demo.text_light_color }};
 	}
-
-	
-
+	.ft-title {
+		color: {{ site.data.settings.color_settings_customer_stories.text_light_color }};
+	}
+	footer a {
+ 		color: {{ site.data.settings.color_settings_customer_stories.text_light_color }};
+	}
 </style>
 
 </header>

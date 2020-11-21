@@ -6,7 +6,7 @@ ul {
 }
 footer {
   background-color: #274779;
-  color: $text-light-color;;
+  color: $text-light-color;
   line-height: 1.5;
 	// @include transition(all 0.4s ease-in-out 0.8s);
 	// padding: 40px 0;
@@ -26,7 +26,7 @@ footer {
 footer a {
   color: #eee;
   &:hover {
-	text-decoration: underline;
+	  text-decoration: underline;
   }
 }
 
