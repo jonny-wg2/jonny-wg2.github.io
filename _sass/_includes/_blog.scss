@@ -1,5 +1,5 @@
 .blogpost {
-    display: inline-block;
+  display: inline-block;
 	width: 100%;
 	box-shadow: rgba(0, 0, 0, 0.06) 4px 4px 8px 0px, rgb(255, 255, 255) -4px -4px 8px 0px;
 	border-radius: 6px;
@@ -47,7 +47,7 @@
     color: #fff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     font-size: 13px;
-    border-radius: 4px;
+    border-radius: 0px;
     text-transform: capitalize;
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
@@ -57,29 +57,4 @@
       text-transform: none;
     }
   }
-}
-
-
-
-.blograised {
-    display: inline-block;
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.06) 4px 4px 8px 0px, rgb(255, 255, 255) -4px -4px 8px 0px;
-    border-radius: 6px;
-    letter-spacing: -0.5px;
-    padding: 16px 20px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    outline: none;
-	border: none;
-	background-color: #F2F4F8;
-    // background-color: var(--theme-ui-colors-background,#F2F4F8);
-	text-align: left;
-	
-	&:hover {
-		border-radius: 6px;
-    	box-shadow: rgba(0, 0, 0, 0.06) 3px 3px 6px 0px inset, rgb(255, 255, 255) -3px -3px 6px 0px inset;
-
-	}
-
 }
