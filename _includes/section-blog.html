@@ -8,7 +8,7 @@
     {% for blog in site.blog_eng %}
     <div class="blogpost">
         <header>
-            <h2 style="max-width: 100% !important;"><a href="{{ post.url }}">{{ blog.title }}</a></h2>
+            <h2 style="max-width: 100% !important; padding-left: 0 !important;"><a href="{{ post.url }}">{{ blog.title }}</a></h2>
             <span class="date">
                 (<time datetime="{{ post.date | date_to_xmlschema }}"
                     itemprop="datePublished">{{ blog.date | date: "%b %-d, %Y" }}</time>)
@@ -17,7 +17,7 @@
         {% for tag in blog.tags %}
         <span class="tag {{ tag | split: "." | join: " " }}">{{ tag | split: "." | first }}</span>
         {% endfor %}
-        <p>{{ blog.excerpt | strip_html | truncate: 300 }} <a href="{{ blog.url }}">Read more →</a></p>
+        <p>{{ blog.excerpt | strip_html | truncate: 300 }} <a href="{{ blog.url }}" style="padding-left: 0 !important;">Read more →</a></p>
     </div>
     {% endfor %}
 </div>
