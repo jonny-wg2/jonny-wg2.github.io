@@ -2,7 +2,15 @@
 
 ul {
   list-style: none;
-  padding-left: 0;
+}
+.lifooter {
+  line-height: 2em;
+  padding-left: 8px;
+  padding-right: 8px;
+    &:hover {
+    border-radius: 5px;
+    background: rgba($overlay-background-color, $overlay-opacity);
+  }
 }
 footer {
   background: transparent;
@@ -25,9 +33,6 @@ footer {
 }
 footer a {
   color: #eee;
-  &:hover {
-	  text-decoration: underline;
-  }
 }
 
 .ft-title {
@@ -35,6 +40,8 @@ footer a {
   font-family: "Menlo", serif;
   font-size: 14px;
   padding-bottom: 0.625rem;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 /* Sticks footer to bottom */
 body {
@@ -55,11 +62,7 @@ body {
 @media only screen and (min-width: 29.8125rem /* 477px */) {
   .ft-main {
 	justify-content: space-evenly;
-	// flex-direction: column-reverse;
   }
-//   .container {
-// 	flex-direction: column;
-// 	}
 }
 @media only screen and (min-width: 77.5rem /* 1240px */) {
   .ft-main {
