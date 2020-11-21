@@ -216,6 +216,7 @@
 
 	&:hover {
 		color: $overlay-accent-color;
+		border-color: $accent-color;
 	}
 
 	@include mq(tabletl) {
