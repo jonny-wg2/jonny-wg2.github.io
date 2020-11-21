@@ -80,7 +80,6 @@ font_settings:
   # font_embed: '<link href="https://fonts.googleapis.com/css?family=VT323&display=swap":300,400,600,700" rel="stylesheet">'
   # custom font in _basic.scss
   title_font: '"geomanist"'
-  # body_font: '"geomanist"'
   body_font: '"geomanist"'
   accent_font: '"SpotMono"'
   regular_weight: 100

@@ -102,3 +102,26 @@
 .pagination__next {
 	float: left;
 }
+
+.blograised {
+    display: inline-block;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.06) 4px 4px 8px 0px, rgb(255, 255, 255) -4px -4px 8px 0px;
+    border-radius: 6px;
+    letter-spacing: -0.5px;
+    padding: 16px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline: none;
+	border: none;
+	background-color: #F2F4F8;
+    // background-color: var(--theme-ui-colors-background,#F2F4F8);
+	text-align: left;
+	
+	&:hover {
+		border-radius: 6px;
+    	box-shadow: rgba(0, 0, 0, 0.06) 3px 3px 6px 0px inset, rgb(255, 255, 255) -3px -3px 6px 0px inset;
+
+	}
+
+}

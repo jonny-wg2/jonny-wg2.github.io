@@ -1,8 +1,15 @@
 
 <h1 class="center">B L O G</h1>
-
+<br><br>
 {% for blog in site.blog_eng %}
 <li class="nobull">
-    <p class="blog accentfont center"><a href="{{ blog.url }}" class="wiggle">{{ blog.title }}</a><br></p>
+    <!-- <div class="blograised"> -->
+        <p class="blog accentfont center"><a href="{{ blog.url }}" class="wiggle blograised">{{ blog.title }}</a>
+            <br>
+            <p>{{ blog.excerpt | strip_html | truncate: 300 }} </p>
+           
+        <br></p>
+    <!-- </div> -->
+    <br><br>
 </li>
 {% endfor %}
