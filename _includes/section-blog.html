@@ -1,15 +1,23 @@
 
 <h1 class="center">B L O G</h1>
 <br><br>
-{% for blog in site.blog_eng %}
-<li class="nobull">
-    <!-- <div class="blograised"> -->
-        <p class="blog accentfont center"><a href="{{ blog.url }}" class="wiggle blograised">{{ blog.title }}</a>
-            <br>
-            <p>{{ blog.excerpt | strip_html | truncate: 300 }} </p>
-           
-        <br></p>
-    <!-- </div> -->
-    <br><br>
-</li>
-{% endfor %}
+
+
+
+<div class="wrap">
+    {% for blog in site.blog_eng %}
+    <div class="blogpost">
+        <header>
+            <h2 style="max-width: 100% !important;"><a href="{{ post.url }}">{{ blog.title }}</a></h2>
+            <span class="date">
+                (<time datetime="{{ post.date | date_to_xmlschema }}"
+                    itemprop="datePublished">{{ blog.date | date: "%b %-d, %Y" }}</time>)
+            </span>
+        </header>
+        {% for tag in blog.tags %}
+        <span class="tag {{ tag | split: "." | join: " " }}">{{ tag | split: "." | first }}</span>
+        {% endfor %}
+        <p>{{ blog.excerpt | strip_html | truncate: 300 }} <a href="{{ blog.url }}">Read more →</a></p>
+    </div>
+    {% endfor %}
+</div>
