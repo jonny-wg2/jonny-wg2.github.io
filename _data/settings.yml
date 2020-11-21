@@ -67,9 +67,9 @@ color_settings_why_wgtwo:
   text_light_color: '#ABB7B7' #p
 
 color_settings_blog:
-  background_color: '#F5F8FA' #'#f0e6e2'
-  text_dark_color: '#2a3870' #h1,h2,h3,-h6
-  text_light_color: '#4f6177' #p
+  background_color: '#F1F4F8' #'#f0e6e2'
+  text_dark_color: '#16181a' #h1,h2,h3,-h6
+  text_light_color: '#16181a' #p
 
 color_settings_demo:
   background_color: '#8ec4c3'
