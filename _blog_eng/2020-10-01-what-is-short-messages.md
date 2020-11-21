@@ -1,5 +1,5 @@
 ---
-layout: blogpost
+layout: blog
 permalink: /blog/what-is-a-short-message
 title: What the heck is a short message?
 date: 2020-10-01

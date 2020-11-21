@@ -1,19 +1,3 @@
-document.querySelector(".menu-trigger").addEventListener("click", function (e) {
-    document.querySelector(".sidebar").classList.add("open");
-});
-
-document.querySelector(".sidebar-overlay").addEventListener("click", function (e) {
-    document.querySelector(".sidebar").classList.remove("open");
-});
-
-document.querySelectorAll(".nav-link").forEach(link => {
-    link.addEventListener("click", e => {
-        e.preventDefault();
-        document.querySelector(".sidebar").classList.remove("open");
-        setTimeout(() => window.location = e.target.href, 200);
-    })
-});
-
 function getColor(tag) { // this very silly function is used to get color for tags for blogposts, we should probably hardcode something instead
     let cs = tag.length / 3; // chunk size
     let charValue = { e: 20, t: 63, a: 84, o: 93, i: 101, n: 109, s: 123, r: 128, h: 130, d: 164, l: 172, u: 195, c: 199, m: 201, f: 207, y: 211, w: 212, g: 213, p: 217, b: 224, v: 232, k: 241, x: 252, q: 254, j: 254, z: 255 };
