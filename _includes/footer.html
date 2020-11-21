@@ -1,24 +1,83 @@
+
+
+<div class="container"></div>
 <footer class="footer">
 
-	<div class="wrap">
-
-		{% if site.data.settings.footer_settings.logo_image %}
-		<a href="/" class="footer__logo">
-			<img src="{{ site.data.settings.footer_settings.logo_image }}" class="footer__logo__img">
-		</a>
-		{% else %}
-		<!-- <a href="/" class="footer__title">
-			{{ site.data.settings.basic_settings.site_title }}
-		</a> -->
-		{% endif %}
-
-		<!-- <p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p> -->
-
-		<div class="footer__copyright">
+	<!-- Footer main -->
+	<section class="ft-main">
+		<div class="ft-main-item">
+			<!-- <h2 class="ft-title">Say Hello</h2> -->
 			<span class="accentfont">© 2015 - {{ 'now' | date: "%Y" }} | Working Group Two AS</span>
+			<!-- <p>HELLO → Join our occasional newsletter for product launches, availability, job openings, and news:</p> -->
+			<!-- <form>
+				<input type="email" name="email" placeholder="Enter email address">
+				<input type="submit" value="Subscribe">
+			</form> -->
+				<!-- <form method="post" action="{{ site.data.settings.contact_settings.form_action }}" id="contact-form">
+				
+					<input type="hidden" name="_next" value="{{ site.data.settings.contact_settings.confirmation_url }}" />
+					<input type="hidden" name="_subject" value="{{ site.data.settings.contact_settings.email_subject }}" />
+					<input type="text" name="_gotcha" style="display: none;" class="contact-form__gotcha" val="">
+				
+					<div class="contact-form__item">
+						<input type="text" name="email" placeholder="Your email address..." class="contact-form__input">
+						<input type="submit" value="{{ site.data.settings.contact_settings.send_button_text }}"
+							class="button button--small">
+					</div>
+				
+				</form> -->
+		</div>
+		<div class="ft-main-item">
+			<h2 class="ft-title">Product</h2>
+			<ul>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Customer Stories</a></li>
+				<li><a href="https://support.wgtwo.com">Support</a></li>
+			</ul>
+		</div>
+		<div class="ft-main-item">
+			<h2 class="ft-title">Platform</h2>
+			<ul class="footerhover">
+				<li><a href="#">For MVNO</a></li>
+				<li><a href="#">For MNO</a></li>
+				<li><a href="#">Developer Portal</a></li>
+				<li><a href="#">Products</a></li>
+			</ul>
+		</div>
 
-		{% include socials.html %}
+		<div class="ft-main-item">
+			<h2 class="ft-title">Company</h2>
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Press</a></li>
+			</ul>
+		</div>
 
-	</div>
+	</section>
+
+	<!-- Footer social -->
+	<!-- <section class="ft-social">
+		<ul class="ft-social-list">
+			<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+			<li><a href="#"><i class="fab fa-github"></i></a></li>
+			<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+		</ul>
+	</section> -->
+
+	<!-- Footer legal -->
+	<section class="ft-legal">
+		<!-- <ul class="ft-legal-list">
+			<li><span class="accentfont">© 2015 - {{ 'now' | date: "%Y" }} | Working Group Two AS</span></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Security</a></li>
+		</ul> -->
+	</section> 
+
 
 </footer>
