@@ -50,7 +50,7 @@ body {
 .ft-main {
   padding: 1.25rem 1.875rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 @media only screen and (min-width: 29.8125rem /* 477px */) {
   .ft-main {
