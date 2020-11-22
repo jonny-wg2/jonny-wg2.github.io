@@ -55,25 +55,34 @@ body {
 
 /* Footer main */
 .ft-main {
-  padding: 1.25rem 1.875rem;
+  // padding: 1.25rem 1.875rem;
+  padding-right: 10%;
   display: flex;
   flex-wrap: wrap-reverse;
+  justify-content: flex-end;
 }
-@media only screen and (min-width: 29.8125rem /* 477px */) {
-  .ft-main {
-	justify-content: space-evenly;
-  }
-}
-@media only screen and (min-width: 77.5rem /* 1240px */) {
-  .ft-main {
-    justify-content: space-evenly;
-  }
-}
+// @media only screen and (min-width: 29.8125rem /* 477px */) {
+//   .ft-main {
+// 	  justify-content: flex-end;
+//   }
+// }
+// @media only screen and (min-width: 77.5rem /* 1240px */) {
+//   .ft-main {
+//     justify-content: flex-end;
+//   }
+// }
 .ft-main-item {
   padding: 1.25rem;
-  min-width: 12.5rem;
+  // min-width: 12.5rem;
 }
 
+.ft-main-item-large {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+  width: 480px;
+  align-self: flex-end;
+  order: 0;
+}
 
 /* Footer legal */
 .ft-legal {
