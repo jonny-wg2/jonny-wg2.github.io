@@ -33,7 +33,7 @@ contact_settings:
   form_action: 'https://formspree.io/somethinghere'
   confirmation_url: '/'
   email_subject: 'Message from wgtwo.com'
-  send_button_text: 'SEND SMS USING OUR API'
+  send_button_text: 'SEND SMS'
 
 
 #home 
