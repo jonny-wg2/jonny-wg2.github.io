@@ -120,3 +120,49 @@
 	min-height: 200px;
 	resize: none;
 }
+
+
+// demo moving gradient
+.radial-gradient {
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+  
+  /*Fallback if gradeints don't work */
+  background: #9b59b6;
+  /*Linear gradient... */
+  background: 
+    radial-gradient(
+     at center, #3498db, #9b59b6
+    );
+}
+
+.radial-gradient:before{
+		content:'';
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		z-index: -1;
+		background: 
+		radial-gradient(
+		at center, #3498db, #9b59b6
+		);
+	}
+
+	/* body {
+		background: {{ site.data.settings.color_settings_demo.background_color }};
+		background-image: linear-gradient(160deg,#80D0C7 0%,#0093E9   100%);
+		background-repeat: no-repeat;
+	}
+	body:before{
+		content:'';
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		z-index: -1;
+		background-image: linear-gradient(160deg, #7ec6c3 30%, #1c477d 100%);
+	} */

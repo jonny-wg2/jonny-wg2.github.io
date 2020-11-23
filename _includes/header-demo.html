@@ -1,4 +1,4 @@
-{% assign logo = blue %}
+<!-- {% assign logo = blue %} -->
 
 <header class="header">
 
@@ -15,8 +15,12 @@
 		bottom: 0;
 		width: 100%;
 		z-index: -1;
-		background-image: linear-gradient(160deg, #7ec6c3 30%, #1c477d 100%);
+		/* background-image: linear-gradient(160deg, #7ec6c3 30%, #1c477d 100%); */
+		background: radial-gradient(
+		at center, #3498db, #1c477d
+		);
 	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
 	}
@@ -31,15 +35,14 @@
 			transition: all 0.15s ease-in-out;
 		}
 	.menu__list__item__link {
-		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
+		color: {{ site.data.settings.color_settings_why_wgtwo.text_dark_color }};
 	}
 	.menu__list__item__link:hover {
-		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
-		border-color: {{ site.data.settings.color_settings_blog.text_dark_color }};
+		color: {{ site.data.settings.color_settings_why_wgtwo.text_dark_color }};
+		
 	}
 	.menu__list__item__link.active-link {
-		color: {{ site.data.settings.color_settings_demo.text_dark_color }};
-		border-color: {{ site.data.settings.color_settings_demo.text_dark_color }};
+		color: {{ site.data.settings.color_settings_why_wgtwo.text_dark_color }};
 	}
 	.contact-form {
 		background-color: none;
