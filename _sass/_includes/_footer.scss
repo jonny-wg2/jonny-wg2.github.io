@@ -78,10 +78,13 @@ body {
 
 .ft-main-item-large {
   padding: 1.25rem;
+  padding-left: 12%;
   min-width: 12.5rem;
   width: 480px;
   align-self: flex-end;
   order: 0;
+  flex: 1;
+  // padding-left: 40px;
 }
 
 /* Footer legal */
