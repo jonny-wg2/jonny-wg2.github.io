@@ -5,12 +5,13 @@ layout: default
 {% include header-blog.html %}
 {% include header-blog-post.html %}
 
-<section class="single">
+<section class="single" style="padding-bottom: 100px">
 
-	<p class="accentfont"><b>Blog</b></p>
+	<p class="accentfont center"><b>Blog</b></p>
 
-	<h1 class="wiggle">{{ page.title }}</h1>
-	<p class="accentfont"> {{ page.date | date_to_long_string }}</p><br>
+	<h1 class="wiggle center">{{ page.title }}</h1>
+	<p class="accentfont center"> {{ page.date | date_to_long_string }}</p><br>
+	<hr class="dashed" style="width:34px!important;">
 
 	{{ page.content }}
 
