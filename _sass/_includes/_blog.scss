@@ -58,3 +58,15 @@
     }
   }
 }
+
+.blogindent {
+  box-shadow: rgba(0, 0, 0, 0.06) 3px 3px 6px 0px inset, rgb(255, 255, 255) -3px -3px 6px 0px inset;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+	@media screen and (max-width: 750px) {
+    margin-left: 5%;
+    margin-right: 5%;
+	}
+}
