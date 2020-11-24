@@ -34,9 +34,15 @@
 			<div class="menu__wrap">
 				<ul class="menu__list">
 					{% for item in site.data.settings.menu_settings.menu_items %}
-					<li class="menu__list__item">
-						<a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
-					</li>
+						{% if item.url == "/demo" %}
+						<li class="menu__list__item demoextrude">
+							<a href="{{ item.url }}">{{ item.title }}</a>
+						</li>
+						{% else %}
+						<li class="menu__list__item">
+							<a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
+						</li>
+						{% endif %}
 					{% endfor %}
 				</ul>
 			</div>

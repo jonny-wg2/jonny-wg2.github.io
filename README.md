@@ -9,6 +9,8 @@ TODO
 
 
 # Notes
+
+A telco core network with no constraints allowing MVNOs to focus on custom accusation.
 ## Problem
 - constrained to the MNO
 - slow time to market

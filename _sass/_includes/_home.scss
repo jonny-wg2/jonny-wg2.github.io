@@ -1,11 +1,21 @@
 // homepage
+.updates {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  flex: 1;
+  // @media screen and (max-width: 500px) {
+	// 	width: 100%;
+	// }
+}
+
 .headingtop {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
-  // flex-wrap: wrap;
   width: 51%;
-  // align-items: left;
   @media screen and (max-width: 500px) {
 		width: 100%;
 	}
@@ -14,9 +24,7 @@
   margin-top: 60px;
   display: flex;
   flex-direction: column;
-  // flex-wrap: wrap;
   width: 51%;
-  // align-items: left;
   @media screen and (max-width: 500px) {
 		width: 100%;
   }
@@ -30,18 +38,19 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-//   justify-content: flex-end;
+  justify-content: center;
+  padding-top: 2%;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  flex-basis: 25%;
+  // flex-basis: 25%;
   margin-top: 2%;
   align-items: stretch;
 //   justify-content: center;
 //   margin-left: 5%;
-//   flex: 1;
+  flex: 1;
   margin-right: 2%;
   box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 6px 0px, rgb(50, 91, 158) -3px -3px 4px 0px;
   &:hover {
@@ -54,12 +63,13 @@
 
 .column-nohover {
   display: flex;
-  flex-direction: column;
-  flex-basis: 45%;
+  flex-direction: row;
+  // flex-basis: 45%;
   margin-top: 2%;
-//   justify-content: center;
+  justify-content: center;
+  align-items: stretch;
 //   margin-left: 5%;
-//   flex: 1;
+  flex: 1;
   margin-right: 2%;
 //   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 6px 0px, rgb(50, 91, 158) -3px -3px 4px 0px;
@@ -89,7 +99,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 2%;
-  height: 800px;
+  height: 650px;
   justify-content: center;
   align-items: center;
   flex: 1;
@@ -110,12 +120,29 @@
 
 .home-box-extrude {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 2%;
+  margin-right: 2%;
   padding: 3%;
-  flex-basis: 41%;
+  flex-basis: 30%;
   // margin-left: 10%;
   // height: 400px;
   // flex: 1;
   box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 6px 0px, rgb(50, 91, 158) -3px -3px 4px 0px;
+}
+
+.home-box-indent {
+  display: flex;
+  flex-direction: row;
+  // margin-top: 2%;
+  margin-right: 8px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  // flex-basis: 30%;
+  justify-content: center;
+  // margin-left: 10%;
+  // height: 400px;
+  // flex: 1;
+  box-shadow: rgba(0, 0, 0, 0.14) 3px 3px 6px 0px inset, rgb(50, 91, 158) -3px -3px 6px 0px inset;
 }
