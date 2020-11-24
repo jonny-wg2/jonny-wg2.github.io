@@ -18,7 +18,7 @@ A telco core network with no constraints allowing MVNOs to focus on custom accus
   - reduced competitive edge
 
 - enabling
-- Customer accusation 
+- Customer acquisition 
 
 Single most reason: 
 - buy something today that is better tomorrow

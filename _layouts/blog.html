@@ -6,14 +6,14 @@ layout: default
 {% include header-blog-post.html %}
 
 <section class="single" style="padding-bottom: 100px">
-
+<div class="blogindent">
 	<p class="accentfont center"><b>Blog</b></p>
 
 	<h1 class="wiggle center">{{ page.title }}</h1>
 	<p class="accentfont center"> {{ page.date | date_to_long_string }}</p><br>
 	<hr class="dashed" style="width:34px!important;">
 
-	<div class="blogindent">
+	
 		{{ page.content }}
 	</div>
 </section>

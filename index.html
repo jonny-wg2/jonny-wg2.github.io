@@ -7,14 +7,14 @@ featured_image: /images/wgtwo.jpg
 
 <section class="intro">
 	<div class="wrap">
-
+		<br><br>
 		<h1>Pioneering <mark><ins>telco</ins></mark>, with a <mark><ins>future proof</ins></mark> core network, to help grow your <mark><ins>MVNO</ins></mark>.</h1>
 		<div class="headingtop">
 			<h6>A managed telco core network with no constraints, allowing MVNOs to focus on customer accusation</h6><br>
 		</div>
 		<div class="headingtop-button">
 			<br><br><br>
-			<a href="/demo" class="buttonextrude centeralways">Request a demo</a>
+			<a href="/demo" class="buttonextrude centeralways accentfont">Request a demo</a>
 		</div>
 	</div>
 </section>
@@ -24,92 +24,27 @@ featured_image: /images/wgtwo.jpg
 		<div class="row">
 			<div class="home-single-item center">
 				<h4>Imagine a telco core network with no constraints</h4>
-				<!-- <h6>Continuous innovation that benefits you</h6> -->
-						<div class="row">
-							<div class="home-box-indent">
-								<h6>continuous</h6>
-							</div>
-							<div class="home-box-indent">
-								<h6>innovation</h6>
-							</div>
-							<div class="home-box-indent">
-								<h6>that</h6>
-							</div>
-							<div class="home-box-indent">
-								<h6>benefits</h6>
-							</div>
-							<div class="home-box-indent">
-								<h6>you</h6>
-							</div>
-						</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="wrap">
-		<div class='row'>
-			<div class='column'>
-				<div class='portfolio-item__content'>
-					<div class="portfolio-item__info">
-						<h2> SaaS Telco Core</h2>
-						<p class="portfolio-item__subtitle">describing thing here</p>
+				<div class="row">
+					<div class="home-box-indent">
+						<h6>continuous</h6>
 					</div>
-				</div>
-			</div>
-			<div class='column'>
-				<div class='portfolio-item__content'>
-					<div class="portfolio-item__info">
-						<h2> SaaS Telco Core</h2>
-						<p class="portfolio-item__subtitle">describing thing here</p>
+					<div class="home-box-indent">
+						<h6>innovation</h6>
 					</div>
-				</div>
-			</div>
-			<div class='column'>
-				<div class='portfolio-item__content'>
-					<div class="portfolio-item__info">
-						<h2> SaaS Telco Core</h2>
-						<p class="portfolio-item__subtitle">describing thing here</p>
+					<div class="home-box-indent">
+						<h6>that</h6>
 					</div>
-				</div>
-			</div>
-			<div class='column'>
-				<div class='portfolio-item__content'>
-					<div class="portfolio-item__info">
-						<h2> SaaS Telco Core</h2>
-						<p class="portfolio-item__subtitle">describing thing here</p>
+					<div class="home-box-indent">
+						<h6>benefits</h6>
 					</div>
-				</div>
-			</div>
-			<div class='column'>
-				<div class='portfolio-item__content'>
-					<div class="portfolio-item__info">
-						<h2> SaaS Telco Core</h2>
-						<p class="portfolio-item__subtitle">describing thing here</p>
+					<div class="home-box-indent">
+						<h6>you</h6>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- <div class="wrap"> -->
-
-	<!-- </div> -->
-	<!-- <div class="wrap">
-		<div class="row">
-			<div class="home-box-indent">
-				<h6 class="accentfont">Pay as you grow</h6>
-			</div>
-			<div class="home-box-indent">
-				<h6>Hassle free</h6>
-			</div>
-			<div class="home-box-indent">
-				<h6>No constraints</h6>
-			</div>
-		</div>
-	</div> -->
-
 </section>
-
-
 
 <section class="portfolio">
 	<div class="wrap">
@@ -120,19 +55,43 @@ featured_image: /images/wgtwo.jpg
 			</div>
 		</div>
 	</div>
+	<div class="wrap" style="margin-top: -150px; margin-bottom: 400px;">
+		<div class='row'>
+			<div class='column'>
+				<p class="columnfont">Quick time to market</p>
+			</div>
+			<div class='column'>
+				<p class="columnfont">No constraints</p>
+			</div>
+			<div class='column'>
+				<p class="columnfont">Customer acquisition</p>
+			</div>
+			<div class='column'>
+				<p class="columnfont">Grows with you</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="portfolio" style="padding-top: 100px;">
+	<div class="wrap">
+		<p class="accentfont">UPDATES</p>
+		<ul class="nobull">
+			{% for page in site.blog_updates %}
+			<li>
+				<h5><b><ins><a class="wiggle" href="{{ page.url }}">{{ page.title }}</a></ins></b> -
+					<i>{{ page.subtitle }}</i> <br>
+				</h5>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
 </section>
 
 
 
-
-
-
-
-
-
-
-
-<!-- <section class="portfolio">
+<!-- 
+<section class="portfolio">
 	<div class="wrap">
 		<div class="row">
 			<div class="home-single-image center">
@@ -145,32 +104,12 @@ featured_image: /images/wgtwo.jpg
 
 
 
-
-
-
-
 <!-- <section class="home-single-item-indent-full-screen">
 	<h4>Imagine a telco core network with no constraints</h4>
 	<h6>Continuos innovation that benefits you</h6>
 </section> -->
 
-<!-- <section class="home-box-extrude">
 
+<!-- <section class="home-box-extrude">
 </section> -->
 
-<section class="portfolio" style="padding-top: 100px;">
-	<div class="wrap">
-		<p class="accentfont">UPDATES</p>
-		<ul class="nobull">
-
-			{% for page in site.blog_updates %}
-			<li>
-				<h5><b><ins><a class="wiggle" href="{{ page.url }}">{{ page.title }}</a></ins></b> -
-					<i>{{ page.subtitle }}</i> <br>
-			</li>
-			</h5>
-			{% endfor %}
-
-		</ul>
-	</div>
-</section>
