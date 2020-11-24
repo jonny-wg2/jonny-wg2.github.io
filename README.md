@@ -20,7 +20,7 @@ TODO
 
 Single most reason: 
 - buy something today that is better tomorrow
-Get the tools to differenciate your company
+Get the tools to differentiate your company
 No constraints
 
 Imagine a telco core network with no constraints
@@ -84,3 +84,4 @@ Hassle free
 - customer support and mnagement
 - billing
 - SLA
+- 24/7 incident oncall operations

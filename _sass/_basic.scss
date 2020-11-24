@@ -320,6 +320,18 @@ a {
 	}
 }
 
+.buttonextrude {
+	// margin-left: 20px;
+	padding: 5%;
+	box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 6px 0px, rgb(50, 91, 158) -3px -3px 4px 0px;
+	&:hover {
+		box-shadow: rgba(0, 0, 0, 0.14) 3px 3px 6px 0px inset, rgb(50, 91, 158) -3px -3px 6px 0px inset;
+	}
+	@media screen and (max-width: 500px) {
+		width: 100%;
+	}
+}
+
 hr {
 	margin: 40px 0;
 	border: 0;
@@ -449,6 +461,10 @@ section {
 .lowercase {
 	font-family: "Menlo", serif;
 	text-transform: lowercase;
+}
+
+.centeralways {
+	text-align: center;
 }
 
 .center {
